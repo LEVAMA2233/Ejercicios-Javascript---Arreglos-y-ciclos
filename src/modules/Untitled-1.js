@@ -7,4 +7,4 @@ function printOutString(arreglo) {
 
 export{printOutString};
 
-export{printOutString};
+
