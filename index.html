@@ -1,11 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
+    <link rel="stylesheet" href="./src/styles/style.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarea serch</title>
 </head>
-    <body>
-        <script src="./Untitled-1.js"></script>
-    </body>
+<body>
+
+    <header>
+        <h1>Tarea de Ejercicios de arreglos y ciclos</h1>
+        Costo pero si se pudo jsjsjs<p class="subtitle">Cada uno de los recuadros contiene la descripciòn
+        del ejercicio y un espacio en el que puedes ingresar el arreglo con el que necesites verificar la 
+        respuesta    
+        </p>
+    </header>
+
+    <div class="container">
+
+        <article class="card">
+            <h2>Ejercicio #1</h2>
+            <p class="description">Unir elementos de un arreglo en una oración sin comas <strong>*Sugerencia:</strong> <code>join()</code></p>
+            
+            <div class="input-group">
+                <label>Ingresa palabras separadas por coma:</label>
+                <input type="text" placeholder='Ej: Hola,serch' id="inputE1">
+            </div>
+
+            <button id="btnEjercicio1">Ver respuesta</button>
+
+            <div class="result-area">
+                <span class="result-label">Salida:</span>
+                <span id="result1" class="placeholder-text">Esperando input...</span>
+            </div>
+        </article>
+
+        <article class="card">
+            <h2>Ejercicio #2</h2>
+            <p class="description">Duplicar el valor de cada número en el arreglo. <strong>*Sugerencia:</strong> <code>map()</code></p>
+            
+            <div class="input-group">
+                <label>Ingresa números separados por coma:</label>
+                <input type="text" placeholder='Ej: 1, 2, 4, 5' id="inputE2">
+            </div>
+
+            <button id="btnEjercicio2">Duplicar Números</button>
+
+            <div class="result-area">
+                <span class="result-label">Salida:</span>
+                <span id="result2" class="placeholder-text">Esperando input...</span>
+            </div>
+        </article>
+
+        <article class="card">
+            <h2>Ejercicio #3</h2>
+            <p class="description">Calcular la suma y el producto de un arreglo de números. <strong>*Sugerencia:</strong> <code>reduce()</code></p>
+            
+            <div class="input-group">
+                <label>Ingresa números separados por coma:</label>
+                <input type="text" placeholder='Ej: 1, 2, 3, 4' id="inputE3">
+            </div>
+
+            <button id="btnEjercicio3">Calcular</button>
+
+            <div class="result-area">
+                <span class="result-label">Salida:</span>
+                <span id="result3" class="placeholder-text">Esperando input...</span>
+            </div>
+        </article>
+
+        <article class="card">
+            <h2>Ejercicio #4</h2>
+            <p class="description">Encontrar cursos comunes entre dos estudiantes. <strong>*Sugerencia:</strong> <code>filter()</code>,<code>includes()</code></p>
+            
+            <div class="input-group">
+                <label>Cursos Estudiante 1:</label>
+                <input type="text" placeholder='Ej: Math, English, Programming' id="inputE4.1">
+            </div>
+            <div class="input-group">
+                <label>Cursos Estudiante 2:</label>
+                <input type="text" placeholder='Ej: Geography, Spanish, Programming' id="inputE4.2">
+            </div>
+
+            <button id="btnEjercicio4">Comparar Cursos</button>
+
+            <div class="result-area">
+                <span class="result-label">Cursos en común:</span>
+                <span id="result4" class="placeholder-text">Esperando input...</span>
+            </div>
+        </article>
+
+        <article class="card">
+            <h2>Ejercicio #5</h2>
+            <p class="description">Manipulación de lista de personas: Eliminar, Mover, Agregar y buscar Índices.</p>
+            
+            <div class="input-group">
+                <label>Lista inicial (opcional):</label>
+                <input type="text" value='Maria, Dani, Luis, Juan, Camila' id="input5">
+            </div>
+
+            <button id="btnEjercicio5">Ejecutar Comandos</button>
+
+            <div class="result-area">
+                <span class="result-label">Resultado Final:</span>
+                <span id="result5" class="placeholder-text">Esperando ejecución...</span>
+            </div>
+        </article>
+
+        <article class="card" id="burbuja">
+            <h2>Ejercicio #6</h2>
+            <p class="description">Ordenamiento de Burbuja (Bubble Sort).Ordenar de menor a mayor.</p>
+            
+            <div class="input-group">
+                <label>Ingresa números desordenados:</label>
+                <input type="text" placeholder='Ej: 3, 6, 12, 5, 100, 1' id="input6">
+            </div>
+
+            <button id="btnEjercicio6">Ordenar Arreglo</button>
+
+            <div class="result-area">
+                <span class="result-label">Arreglo Ordenado:</span>
+                <span id="result6" class="placeholder-text">Esperando input...</span>
+            </div>
+        </article>
+
+    </div>
+
+    <footer style="text-align: center; margin-top: 50px; color: #94a3b8; font-size: 0.8rem;">
+        <p>Diseñado por LEVAMA</p>
+    </footer>
+    <script type="module" src="./src/main.js"></script>
+</body>
 </html>
