@@ -22,7 +22,7 @@ header {
     text-align: center;
     margin-bottom: 40px;
     padding: 20px;
-    background-image: url("./img/dino.jpg");
+    background-image: url("../img/dino.jpg");
 
     background-size:10%;
     background-repeat: no-repeat;
@@ -150,7 +150,7 @@ button:hover {
 }
 
 #burbuja{
-    background-image: url("./img/burbuja.jpg");
+    background-image: url("../img/burbuja.jpg");
     background-repeat: no-repeat;
     background-position: top -35px right 25px;
     background-size: 85px ;
